@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=arrow
+comment0.text=\r\n\ This\ actor\ creates\ the\ arrow\ signaling\ where\ the\ next\ boat\ is\ going\ to\ appear,\r\n\ it\ uses\ a\ timer\ and\ after\ the\ timer\ reaches\ zero\ it\ will\ automatically\ create\ the\ predestined\ boat.\r\n\ @author\ (Arnold\ Zijler)\ \r\n\ @version\ (version\ 1,\ 12/2/2014)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ image()
+numComments=3

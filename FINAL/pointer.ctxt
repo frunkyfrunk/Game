@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=pointer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ pointer\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ pointer\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=pointer()
+comment3.params=
+comment3.target=void\ rotate()
+comment4.params=
+comment4.target=void\ gameover()
+comment4.text=if\ (b.getRotation()>\=115)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.playSound("alarm.wav");\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\!soundHasPlayed)\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mySound.play();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ soundHasPlayed\ \=\ true;\ \ //This\ will\ cause\ this\ if\ block\ never\ to\ run\ again,\ unless\ you\ have\ code\ somewhere\ that\ turns\ it\ to\ false\ again.\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ else\ if\ (getRotation()<\=-115)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.playSound("alarm.wav");\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\!soundHasPlayed)\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mySound.play();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ soundHasPlayed\ \=\ true;\ \ //This\ will\ cause\ this\ if\ block\ never\ to\ run\ again,\ unless\ you\ have\ code\ somewhere\ that\ turns\ it\ to\ false\ again.\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n}
+numComments=5

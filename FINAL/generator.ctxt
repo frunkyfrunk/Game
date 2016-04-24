@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=generator
+comment0.text=\r\n\ This\ is\ the\ actor\ that\ generates\ the\ arrows\ wich\ will\ and\ create\ the\ boats\r\n\ The\ generator\ consists\ of\ a\ timer\ and\ timerrange,\ a\ static\ counterarrow\ and\ a\ static\ maxarrow\ so\ that\ there\ is\ always\ control\ over\ the\ difficulty\r\n\ @author\ (Arnold\ Zijler)\ \r\n\ @version\ (version\ 1,\ 12/2/2014)\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2
